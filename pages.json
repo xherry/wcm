@@ -1,0 +1,345 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/runs",
+				"style" : {
+					"app-plus":{
+						"titleNView":false
+					}
+				}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智慧云矿山",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/login",
+			"style" : {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor":"#071032",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/certify/certify",
+			"style": {
+				"navigationBarTitleText": "信息播报",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					"pullToRefresh": {
+							"support": true,
+							"color": "#878787", //小圈圈的颜色
+							"style": "circle" //小圈圈的样式
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/violate/violate",
+			"style": { 
+				"navigationBarTitleText": "违规操作",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					"pullToRefresh": {
+							"support": true,
+							"color": "#878787", //小圈圈的颜色
+							"style": "circle" //小圈圈的样式
+					}
+				}
+			} 
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/index/person",
+			"style" : {
+				"navigationBarTitleText": "人员管理",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/arecords",
+			"style" : {
+				"navigationBarTitleText": "出入记录",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/enterprise",
+			"style" : {
+				"navigationBarTitleText": "企业管理",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/statiste",
+			"style" : {
+				"navigationBarTitleText": "人员统计",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/workers",
+			"style" : {
+				"navigationBarTitleText": "下井人员设置",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/monitore",
+			"style" : {
+				"navigationBarTitleText": "视频监控",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/person/addPerson",
+			"style" : {
+				"navigationBarTitleText": "添加员工",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/arecord/arecordTabBar",
+			"style" : {
+				"navigationBarTitleText": "秀山三润矿业有限公司",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/workers/setperson",
+			"style" : {
+				"navigationBarTitleText": "秀山三润矿业有限公司",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/monitore/moniePage",
+			"style" : {
+				"navigationBarTitleText": "秀山三润矿业有限公司",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/leaveAsk/offLists",
+			"style" : {
+				"navigationBarTitleText": "请假管理",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/index/enterprise/cinform",
+			"style" : {
+				"navigationBarTitleText": "公司信息",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/mine/setUser/setUser",
+			"style" : {
+				"navigationBarTitleText": "个人设置",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+			"path" : "pages/mine/setUser/changePwd",
+			"style" : {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor":"#021e3d",
+				"navigationBarTextStyle":"white"
+			}
+		},{
+			"path" : "pages/index/shiftLists",
+			"style" : {
+					"navigationBarTitleText": "班次列表",
+					"navigationBarBackgroundColor":"#021e3d",
+					"navigationBarTextStyle":"white"
+				}
+			}
+			,{
+				"path" : "pages/index/emleaves/emLeaveNav",
+				"style" : {
+					"navigationBarTitleText": "请假",
+					"navigationBarBackgroundColor":"#021e3d",
+					"navigationBarTextStyle":"white"
+				}
+			}
+			,{
+				"path" : "pages/forgetPwd",
+				"style" : {
+					"navigationBarTitleText": "忘记密码",
+					"navigationBarBackgroundColor":"#021e3d",
+					"navigationBarTextStyle":"white"
+				}
+			}
+        ,{
+            "path" : "pages/index/person/operatePerson",
+            "style" : {
+							"app-plus":{
+								"titleNView":false
+							}
+						}
+        }
+        ,{
+            "path" : "pages/index/webViews",
+            "style" : {
+							"navigationBarTitleText": "智慧云矿山"
+						}
+        }
+        ,{
+            "path" : "pages/index/sixSystem",
+            "style" : {
+							"navigationBarTitleText": "六大系统",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/mine/feedback",
+            "style" : {
+							"navigationBarTitleText": "问题反馈",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/mine/helps",
+            "style" : {
+							"navigationBarTitleText": "帮助中心",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/mine/helpDetail",
+            "style" : {
+							"navigationBarTitleText": "",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/mine/forOurs",
+            "style" : {
+							"navigationBarTitleText": "关于我们",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/mine/privacy",
+            "style" : {
+							"navigationBarTitleText": "隐私政策",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/mine/introduce",
+            "style" : {
+							"navigationBarTitleText": "公司介绍",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/certify/certifyInfo",
+            "style" : {
+							"navigationBarTitleText": "播报详情",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/violate/violateInfo",
+            "style" : {
+							"navigationBarTitleText": "违规详情",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/index/warneducate",
+            "style" : {
+							"navigationBarTitleText": "警示教育",
+							"navigationBarBackgroundColor":"#021e3d",
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/index/videoWeb",
+            "style" : {
+							"navigationBarTitleText": "智慧云矿山"
+						}
+        }
+        ,{
+            "path" : "pages/wvs",
+            "style" : {
+							"navigationBarTitleText": "智慧云矿山"
+						}
+        }
+    ],
+	"tabBar": {
+	  "color": "#446695",
+		"selectedColor":"#FFFFFF",
+	  "backgroundColor": "#041647",
+	  "list": [{
+	    "pagePath": "pages/index/index",
+	    "iconPath": "static/home/014.png",
+	    "selectedIconPath": "static/home/010.png",
+	    "text": "首页" 
+	   },
+	   {
+	    "pagePath": "pages/certify/certify",
+	    "iconPath": "static/home/002.png",
+	    "selectedIconPath": "static/home/013.png",
+	    "text": "信息播报"
+	   },
+	   {
+	    "pagePath": "pages/violate/violate",
+	    "iconPath": "static/home/011.png",
+	    "selectedIconPath": "static/home/015.png",
+	    "text": "违规操作"
+	   },
+		 {
+		  "pagePath": "pages/mine/mine",
+		  "iconPath": "static/home/012.png",
+		  "selectedIconPath": "static/home/016.png",
+		  "text": "我的"
+		 }
+	  ]
+	 },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

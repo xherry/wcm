@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login",
+    "pages/certify/certify",
+    "pages/violate/violate",
+    "pages/mine/mine",
+    "pages/index/person",
+    "pages/index/arecords",
+    "pages/index/enterprise",
+    "pages/index/statiste",
+    "pages/index/workers",
+    "pages/index/monitore",
+    "pages/index/person/addPerson",
+    "pages/index/arecord/arecordTabBar",
+    "pages/index/workers/setperson",
+    "pages/index/monitore/moniePage",
+    "pages/index/leaveAsk/offLists",
+    "pages/index/enterprise/cinform",
+    "pages/mine/setUser/setUser",
+    "pages/mine/setUser/changePwd",
+    "pages/index/shiftLists",
+    "pages/index/emleaves/emLeaveNav",
+    "pages/forgetPwd",
+    "pages/index/person/operatePerson"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#446695",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#041647",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home/014.png",
+        "selectedIconPath": "static/home/010.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/certify/certify",
+        "iconPath": "static/home/002.png",
+        "selectedIconPath": "static/home/013.png",
+        "text": "信息播报"
+      },
+      {
+        "pagePath": "pages/violate/violate",
+        "iconPath": "static/home/011.png",
+        "selectedIconPath": "static/home/015.png",
+        "text": "违规操作"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/home/012.png",
+        "selectedIconPath": "static/home/016.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
